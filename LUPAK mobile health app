@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupak Telehealth Wireframe</title>
+    <style>
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Primary Color */
+        .primary-color {
+            color: #2a7fff;
+        }
+
+        /* Layout Styles */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 24px;
+            color: #2a7fff;
+        }
+
+        .btn-primary {
+            background-color: #2a7fff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .btn-primary:hover {
+            background-color: #1f5bbf;
+        }
+
+        /* Sections */
+        .hero-section {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ffffff;
+        }
+
+        .hero-section h2 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .hero-section p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .feature-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background-color: white;
+            width: 250px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .feature-card h3 {
+            color: #2a7fff;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2a7fff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lupak Telehealth</h1>
+        <button class="btn-primary">Book a Consultation</button>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h2 class="primary-color">Welcome to Lupak Telehealth</h2>
+            <p>Your trusted partner in personalized healthcare solutions</p>
+            <button class="btn-primary">Get Started</button>
+        </section>
+
+        <!-- Feature Cards Section -->
+        <section class="feature-cards">
+            <div class="feature-card">
+                <h3>On-Demand Specialist Consultations</h3>
+                <p>Instant access to specialists for your healthcare needs.</p>
+            </div>
+            <div class="feature-card">
+                <h3>AI-Powered Diagnostics</h3>
+                <p>Advanced technology to help diagnose symptoms remotely.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Chronic Disease Management</h3>
+                <p>Personalized care plans for managing chronic conditions.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Emergency SOS</h3>
+                <p>One-tap access to emergency services with location sharing.</p>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="hero-section">
+            <h2>Experience Better Healthcare Today</h2>
+            <p>Join Lupak for 24/7 access to health services.</p>
+            <button class="btn-primary">Start Your Journey</button>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Lupak Telehealth. All rights reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
+
+</body>
+</html>
